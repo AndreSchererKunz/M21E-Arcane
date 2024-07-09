@@ -1,0 +1,27 @@
+@use 'variaveis';
+
+.about {
+    background-color: variaveis.$corDeFundo;
+
+
+    &__img {
+        max-width: 500px;
+        border-radius: 25px;
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    h1 {
+        color: #A93460;
+
+        @media (max-width: 767px) {
+            margin-top: 10px;
+        }
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,21 @@
+.watch {
+    &__title {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    &__image {
+        width: 500px;
+        max-height: 500px;
+        border-radius: 25px;
+        margin-bottom: 2em;
+        box-shadow: #a81e0677 2px 2px 4px;
+        border: 1px solid #a81e0677;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    b {
+        color: #E52113;
+    }
+}

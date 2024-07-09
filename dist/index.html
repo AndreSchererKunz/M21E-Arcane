@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Playwrite+US+Modern:wght@100..400&family=Caprasimo&family=DM+Serif+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Landing Page Arcane</title>
+</head>
+
+<body>
+    <header class="sticky-top" id="cabecalho" style="background-color: #0C100F;">
+        <div class="header__container">
+            <nav class="navbar navbar-expand-lg pt-2">
+                <h1>
+                    <img class="header__logo" src="images/arcane.png" alt="Zaun">
+                </h1>
+                <button  type="button" class="navbar-toggler header__x" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="header__links navbar-nav nav-pills">
+                        <li class="nav-item header__links__item">
+                            <a href="#about" class="button button--secondary">História</a>
+                        </li>
+                        <li class="nav-item header__links__item">
+                            <a href="#watch" class="button button--secondary">Onde assistir</a>
+                        </li>
+                        <li class="nav-item header__links__item">
+                            <a href="#characters" class="button button--secondary">Personagens</a>
+                        </li>
+                        <li class="nav-item header__links__item">
+                            <a href="#sub" class="button button--secondary">Inscrever-se</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+        </div>
+    </header>
+    <img class="header__img" src="images/capa.jpg" alt="Arcane">
+    <div class="color-line"></div>
+    <div>
+        <section class="about" id="about">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="about__img d-block w-100" src="images/about.jpg" alt="Ilustração de Arcane">
+                        </div>
+                        <div class="about__content col-md-7 mt-md-0">
+                            <h1 class="title about__title">História</h1>
+                            <div class="about__text">
+                                <p class="text"> "Arcane" é uma série de animação da Netflix baseada no universo de "League of Legends". Lançada em 2021, a série se passa nas cidades de Piltover e Zaun, explorando a tensão entre o progresso e a pobreza.</p>
+                                <p class="text">A história acompanha as irmãs Vi e Jinx. Vi é uma lutadora determinada a fazer justiça, enquanto Jinx, uma inventora brilhante mas perturbada, cria caos e destruição. Sua relação é ao mesmo tempo comovente e trágica.</p>
+                                <p class="text">Além das irmãs, "Arcane" apresenta personagens como Jayce, um inventor ambicioso; Caitlyn, uma detetive de Piltover; e Viktor, um cientista de Zaun. Cada um traz profundidade e complexidade à trama</p>
+                                <p class="text">Visualmente, "Arcane" é deslumbrante, combinando técnicas de animação tradicionais e digitais. A trilha sonora, variada e envolvente, complementa perfeitamente a atmosfera da série.</p>
+                                <p class="text">Se você busca uma série com uma história cativante e visual impressionante, "Arcane" é a escolha ideal. Descubra por que esta série conquistou fãs ao redor do mundo e mergulhe nesse universo fascinante.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="color-line"></div>
+        <section class="watch" id="watch">
+            <div class="container">
+                <h2 class="watch__title title--big">Disponível agora na <b>NETFLIX</b></h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <a href="https://www.netflix.com.br/title/81435684">
+                            <img class="watch__image d-block mx-auto" src="images/poster1.png" alt="Temporada 1">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                    <a href="https://www.netflix.com/tudum/articles/arcane-season-2-release-date-photos">
+                        <img class="watch__image d-block mx-auto" src="images/poster2.png" alt="Temporada 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="color-line"></div>
+        <section class="characters" id="characters">
+            <div class="container">
+                <h1 class="title--big">Personagens <u>Marcantes</u></h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card bg-danger">
+                            <img src="images/vi.jpg" alt="Vi">
+                            <div class="card-body card1">
+                                <h4 class="card-title">Vi (Violet)</h4>
+                                <p class="card-text">
+                                    Vi é uma jovem rebelde e durona, que cresceu nas ruas perigosas de Zaun. Com uma forte moral e um desejo de proteger aqueles que ama, especialmente sua irmã mais nova, Powder, Vi frequentemente se encontra em conflito com a autoridade. Conhecida por seu cabelo rosa vibrante e suas enormes luvas hextech que aumentam sua força, ela é uma lutadora implacável e determinada a fazer justiça à sua maneira.
+                                </p>
+                                <a href="#" class="btn btn-dark">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card card2 bg-primary">
+                            <img src="images/jinx1.jpg" alt="Jinx">
+                            <div class="card-body">
+                                <h4 class="card-title">Jinx (Powder)</h4>
+                                <p class="card-text">
+                                    Jinx, inicialmente conhecida como Powder, é a irmã mais nova de Vi. Começando como uma criança doce e sensível, eventos traumáticos a transformam em uma figura caótica e anárquica. Brilhante inventora, Jinx é marcada por uma profunda instabilidade mental e um senso de traição, o que a leva a criar armas destrutivas. Seu cabelo azul e estilo extravagante refletem sua personalidade imprevisível e criativa.
+                                </p>
+                                <a href="#" class="btn btn-dark">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card card3">
+                            <img src="images/jayce.jpg" alt="Jayce">
+                            <div class="card-body">
+                                <h4 class="card-title">Jayce Talis</h4>
+                                <p class="card-text">
+                                    Jayce é um inventor idealista de Piltover, movido pelo desejo de melhorar a vida das pessoas através da tecnologia hextech. Carismático e ético, ele se envolve na política para tentar equilibrar suas ambições científicas com as necessidades de sua sociedade. Conhecido por seu físico atlético e seu martelo hextech, Jayce enfrenta dilemas morais enquanto busca transformar Piltover em uma cidade melhor.
+                                </p>
+                                <a href="#" class="btn btn-dark">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="color-line"></div>
+        <section class="sub" id="sub">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center title--big"><b class="sub__text-color">Inscreva-se</b> para saber das Novidades</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 pb-4">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label text">Seu nome:</label>
+                                <input type="text" name="nome" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text">Seu e-mail:</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label text">Seu telefone (opcional):</label>
+                                <input type="tel" name="telefone" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label text">Sua sugestão para a nossa equipe (opcional):</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark fw-bold w-100 sub__text-color">Inscrever-se</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 pt-4 pb-5">
+                        <img class="d-block w-100" src="images/sub.png" alt="Piltover">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="color-line"></div>
+    <footer class="me-2 ms-2 mt-3">  
+        Desenvolvido por <a href="https://github.com/AndreSchererKunz" target="_blank">A.S.K.</a> | © 2024
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@use 'variaveis';
+
+.header {
+    &__container {
+        justify-content: space-around;
+
+        @media (max-width: 768px) {
+            padding: 0 12px 0 20px;
+        }
+    }
+
+    &__logo {
+        max-width: 200px;
+        width: 100%;
+        margin: 5px;
+        margin-left: 1em;
+
+        @media (max-width: 425px) {
+            margin: 0;
+        }
+    }
+
+    &__links {
+        display: flex;
+
+        &__item {
+            margin: 5px 10px;
+            font-weight: bold;
+        }
+    }
+
+    .button {
+        height: 50px;
+
+        @media (max-width: 768px) {
+            font-size: 13px;
+            padding: 8px 11px;
+            height: 40px;
+            letter-spacing: 0;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        max-width: 2050px;
+        height: 80vh;
+
+        @media (max-width: 768px) {
+            object-fit: cover;
+        }
+    }
+
+    .nav-link:hover{
+    text-decoration: underline;
+    color: black;
+    }
+
+    &__x {
+        margin-right: 10px;
+        background-color: #17241A !important;
+    }
+}

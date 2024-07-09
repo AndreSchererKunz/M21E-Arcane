@@ -1,0 +1,17 @@
+@use 'variaveis';
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-radius: 25px;
+    padding: 0.5em;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 2px 4px;
+    font-family: 'Caprasimo', serif;
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
